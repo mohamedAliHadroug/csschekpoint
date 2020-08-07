@@ -1,0 +1,145 @@
+/*General*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size:15px; 
+}
+
+h1,h2{
+    color:#444;   
+}
+
+ul{
+    list-style: none;
+}
+
+a{ 
+    text-decoration: none;
+    color:#444;
+}
+
+/*navbar*/
+
+ nav{
+    float:left;
+    margin:50px;
+    background:rgb(176,224,230);
+    width: 100%;
+    font-size:50px; 
+
+}
+
+nav ul li{
+    float:left;
+    display:inline-block;
+    padding-left: 120px;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-right:50px;
+    text-align : center;
+
+}
+nav ul li a:hover{
+
+    color:rgb(0,139,139);
+
+}
+
+/*Home*/
+
+#Home{
+    margin:50px;
+}
+
+/*About*/
+
+#About{
+    margin:50px;
+}
+
+#About h1{
+    font-size:50px;
+    background:rgb(176,224,230);
+    text-align:center;
+}
+#About h1:hover{
+    
+    color:rgb(0,139,139);
+}
+#About table{
+    text-align: center;
+    margin-top: 50px;
+    width:100%;
+}
+#About table caption{
+    margin-bottom:25px;
+    text-transform:uppercase;
+    font-size: 30px;
+    
+}
+
+
+/*Work*/
+
+#Work{
+    margin:50px;
+}
+#Work h1{
+    font-size:50px;
+    background:rgb(176,224,230);
+    text-align:center;
+}
+#Work img{
+    padding: 50px;
+    border-radius: 200px 0 0 20px;
+    text-align: center;
+
+}
+
+/*Resume*/
+#Resume{
+    margin:50px;
+}
+#Resume h1{
+    font-size:50px;
+    background:rgb(176,224,230);
+    text-align:center;
+}
+#Resume h2{
+    padding: 50px;
+    font-size:30px;
+    text-align:center;
+}
+#Resume iframe{
+                margin-left:500px;
+}
+
+/*button*/
+
+button{
+    background: rgb(176,224,230);
+    height: 100px;
+    width : 500px
+    padding:10px;
+    margin-left:700px;
+}
+button a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*footer*/
+
+footer {
+    display:block;
+    margin-bottom: 1px;
+    text-align: right;
+}
